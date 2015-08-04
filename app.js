@@ -9,7 +9,7 @@ app.use('/', routes);
 app.use('/about', about);
 app.use('/contact', contact);
 
-app.locals.title = "Carter Capocaccia" ;
+app.locals.title = "Carter Capocaccia";
 
 app.get('*', function(req, res, next) {
   var err = new Error();
