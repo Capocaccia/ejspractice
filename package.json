@@ -1,0 +1,24 @@
+{
+  "name": "ejspractice",
+  "version": "1.0.0",
+  "description": "Practicing my use of EJS combined with other technologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Capocaccia/ejspractice.git"
+  },
+  "author": "Carter Capocaccia <carter.capocaccia@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Capocaccia/ejspractice/issues"
+  },
+  "homepage": "https://github.com/Capocaccia/ejspractice",
+  "dependencies": {
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "nodemailer": "^1.4.0"
+  }
+}
